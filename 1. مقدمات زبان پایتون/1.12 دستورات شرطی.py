@@ -6,10 +6,20 @@
 # if condition:
 #     block
 
+from math import fabs
+from operator import truediv
+
+
 speed=120
 
 if speed>100:
     print("You drive fast")
+
+if speed>50:
+    ghjsghf
+    hsgfhgs
+    hsgfhsf
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------------",
@@ -32,8 +42,12 @@ if speed<=100 or speed>=120:
 
 if speed>=100 and speed<=120:
     print("You drive fast")    
-elif speed>12:
+elif speed>120:
     print("You dont drive fast") 
+elif speed==140:
+    print("speed=140")
+elif speed!=140:
+    print("speed!=140")
 else:
     print("other") 
 
@@ -47,4 +61,17 @@ else:
 
 if not speed>100:
     print("you drive fast")
+
+is_marrid=False
+
+if is_marrid==True:
+    print("fssfs")
+if is_marrid:
+    print("fssfs")
+
+
+if  is_marrid==False:
+    print("fssfs")
+if not is_marrid:
+    print("fssfs")
 

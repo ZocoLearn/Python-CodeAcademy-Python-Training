@@ -13,37 +13,37 @@
 #   isdigit()           Returns True if the string consists of digits only",
 #-------------------------------------------------------------------------------------------"
 
-my_name="mohammad"
+my_name="mohammad   "
 result=len(my_name)
-print(result)
-print("%s has %d charecters" %(my_name,result))
-#---------------------
-my_name="mohammad  "
-result=len(my_name)
-print("%s has %d charecters" %(my_name,result))
-#---------------------Method
-result=my_name.capitalize()
-result="ali".capitalize()
-print(result)
+# print(result)
+# print("%s has %d charecters" %(my_name,result))
+# #---------------------
+# my_name="mohammad  "
+# result=len(my_name)
+# print("%s has %d charecters" %(my_name,result))
+# #---------------------Method
+# result=my_name.capitalize()
+# result="ali".capitalize()
+# print(result)
 
-#--------------------------
-quote = """If you really want to do something, you'll find a way.you don't, 
-    you'll find an excuse"""
-sub_string = "you"
-result = quote.count(sub_string)
-print("The substring %s is repeated %d times in the string" %(sub_string,result))
-#--------------------------------
-print("Password".lower())
-print("Password".upper())
-#----------------------------
-print("$  ".isspace())
-print("   ".isspace())
-#-------------------------
-quote = "All progres takes place outside the comfort zone!\""
-quote = quote.replace("progres", "progress1")
-print(quote)
-#---------------------------
-print("a123456".isdigit())
+# #--------------------------
+# quote = """If you really want to do something, you'll find a way.you don't, 
+#     you'll find an excuse"""
+# sub_string = "you"
+# result = quote.count(sub_string)
+# print("The substring %s is repeated %d times in the string" %(sub_string,result))
+# #--------------------------------
+# print("Password".lower())
+# print("Password".upper())
+# #----------------------------
+# print("A  ".isspace())
+# print("   ".isspace())
+# #-------------------------
+# quote = "All progres takes place outside the comfort zone!\""
+# quote = quote.replace("progres", "progress1")
+# print(quote)
+# #---------------------------
+print("123456".isdigit())
 
 
 
